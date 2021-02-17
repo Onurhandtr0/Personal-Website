@@ -1,0 +1,11 @@
+include ./header.pug
+nav.navbar.navbar-expand-lg.container
+  a(href="/").navbar-brand Onurhandtr
+  button(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation").navbar-toggler
+    span.navbar-toggler-icon
+  .collapse.navbar-collapse#navbarSupportedContent
+    ul.navbar-nav.ml-auto
+      li.nav-item
+        a(href="/about", class=(path === '/'?'nav-link active':'nav-link')) About
+      li.nav-item
+        a(href="/contact").nav-link Contact

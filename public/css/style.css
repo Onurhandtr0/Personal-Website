@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+::selection {
+    background-color: #1f252f;
+    color: #F3F4F6;
+}
+
+
+::-webkit-scrollbar {
+    background-color: #D1D5DB; 
+  }
+
+::-webkit-scrollbar-button {
+    background-color: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #111827;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../img/menu.svg");
+}
+
+.navbar-brand {
+    color: #111827;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+li a {
+    color: #374151;
+    font-size: 1.25rem;
+    font-family: monospace;
+}
+
+li a:hover {
+    color: royalblue;
+}
+
+body {
+    background-color: #F3F4F6;
+}
+
+.jumbotron {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: #F3F4F6;
+    margin-top: 3rem;
+}
+
+.jumbotron h1 {
+    color: #374151;
+    font-family: monospace;
+}
+
+.jumbotron .photo {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    width: 20rem;
+    border-radius: 50px;
+}
+
+.ribbon-highlight{
+    position:relative;
+    margin:0.1em;
+  }
+  .ribbon-highlight:before{
+    content:"";
+    z-index:-1;
+    left:-0.5em;
+    top:0.1em;
+    border-width:0.5em;
+    border-style:solid;
+    border-color:lightgreen;
+    position:absolute;
+    width:100%;
+    border-left-color:transparent;
+    border-right-color:transparent;
+  }
+
+  .underlined {
+    color: #162038;
+    font-size: 1.25em;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #F3F4F6 0, #F3F4F6 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+  .underlined--offset {
+    background-position: 0 0.2em;
+    box-shadow: inset 0 -0.4em 0 0 lightsteelblue;
+  }
+
+.address {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.address a {
+    font-family: monospace;
+    font-size: 1.40rem;
+    cursor: pointer;
+    color: #49515f;
+}
+
+.address a:hover {
+    color: #090d14;
+}
+
+section {
+    margin-top: 12rem;
+}
+
+section h1 {
+    font-family: monospace;
+}
+
+section p {
+    font-size: 1.40rem;
+    font-family: monospace;
+    color: #374151;
+}
+
+.techs {
+    margin-top: 3rem;
+}
+
+.techs h3 {
+    font-size: 1.80rem;
+    font-family: monospace;
+}
+
+.fa-caret-right {
+    margin-top: 5px;
+}
+
+form {
+    margin-top: 4rem;
+}
+
+form h1 {
+    color: #374151;
+    font-family: monospace;
+    font-size: 3rem;
+}
+
+form p {
+    font-size: 1.20rem;
+    font-family: monospace;
+    color: #49515f;
+}
+
+.form-group label {
+    font-family: monospace;
+    font-size: 1.30rem;
+}
+
+.form-group input {
+    background-color: #F3F4F6;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #111827;
+}
+
+.form-group input:focus {
+    border: 1px solid #111827;
+    background-color: #F3F4F6;
+    outline: none !important;
+}
+
+.form-group textarea {
+    background-color: #F3F4F6;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #111827;
+}
+
+.form-group textarea:focus {
+    background-color: #F3F4F6;
+    border: 1px solid #111827;
+}
+
+form .submitBtn {
+    border: none;
+    width: 10rem;
+    padding: 10px;
+    background-color: #090d14;
+    color: #D1D5DB;
+}
+
+form .submitBtn:hover {
+    background-color: #1f252f;
+    color: #F3F4F6;
+}
