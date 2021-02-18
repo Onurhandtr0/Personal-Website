@@ -15,7 +15,6 @@ const errorController = require('./controllers/error');
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, 'public')));
 
-
 app.use('/', userRoutes);
 
 app.use(errorController.get404Page);
