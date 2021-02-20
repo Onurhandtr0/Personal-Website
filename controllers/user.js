@@ -1,6 +1,6 @@
 exports.getIndex = (req, res) => {
     res.render('user/index', {
-        title: 'Anasayfa', 
+        title: 'Onurhan | Home', 
         path: '/'
         });
 }
@@ -15,6 +15,13 @@ exports.getAbout = (req, res) => {
 exports.getContact = (req, res) => {
     res.render('user/contact', {
         title: 'Onurhan | Contact', 
+        path: '/'
+        });
+}
+
+exports.getLogin = (req, res) => {
+    res.render('user/login', {
+        title: 'Admin Panel | Login', 
         path: '/'
         });
 }

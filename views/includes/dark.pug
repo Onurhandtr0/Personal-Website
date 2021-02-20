@@ -1,0 +1,10 @@
+script.
+    let checkbox = document.getElementById("checkbox");
+
+    checkbox.addEventListener('change', function(e) {
+        if(checkbox.checked == true) {
+            document.getElementById("light").href="/css/style.css"; 
+        } else {
+            document.getElementById("light").href="/css/dark.css";
+        }
+    })

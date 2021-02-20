@@ -1,0 +1,119 @@
+::selection {
+    background-color: #374151 !important;
+    color: lightblue !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../img/dark-menu.svg") !important;
+
+}
+
+.navbar-brand {
+    color: #D1D5DB !important;
+}
+
+li a {
+    color: #D1D5DB !important;
+}
+
+li a:hover {
+    color: royalblue !important;
+}
+
+body {
+    background-color: #111827 !important;
+}
+
+.jumbotron {
+    background-color: #111827 !important;
+}
+
+.jumbotron h1 {
+    color: #D1D5DB !important;
+}
+
+.jumbotron .photo {
+    opacity: 0.7 !important;
+}
+  .underlined {
+    color: #e9ecf0 !important;
+}
+
+  .underlined--offset {
+    box-shadow: inset 0 -0.4em 0 0 #49515f !important;
+  }
+
+.address a {
+    color: #D1D5DB !important;
+}
+
+.address a:hover {
+    color: #989899 !important;
+}
+
+.fa-github {
+    color: #737880 !important;
+}
+
+.fa-instagram {
+    color: #737880 !important;
+}
+
+/* ABOUT PAGE */
+
+section h1 {
+    color: #D1D5DB;
+}
+
+section p {
+    color: #989899 !important;
+}
+
+.techs h3 {
+    color: #D1D5DB;
+}
+
+.fa-caret-right {
+    color: #D1D5DB;
+}
+
+/* CONTACT PAGE */ 
+
+form h1 {
+    color: #989899 !important;
+}
+
+form p {
+    color: #737880;
+}
+
+.form-group label {
+    color: #989899 !important;
+}
+
+.form-group input {
+    background-color: #111827 !important;
+    border-bottom: 1px solid #989899 !important;
+}
+
+.form-group textarea {
+    background-color: #111827 !important;
+    border-bottom: 1px solid #989899 !important;
+}
+
+.form-group textarea:focus {
+    background-color: #F3F4F6;
+}
+
+form .submitBtn {
+    border: none;
+    width: 10rem;
+    padding: 10px;
+    background-color: #374151 !important;
+    color: #D1D5DB;
+}
+
+form .submitBtn:hover {
+    background-color: #49515f !important;
+    color: #F3F4F6;
+}
